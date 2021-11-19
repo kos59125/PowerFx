@@ -1,0 +1,18 @@
+<table class="table is-bordered is-narrow">
+  ${TableHeader}
+  ${TableBody}
+</table>
+
+<template id="TableRow">
+  <tr>
+    ${Cells}
+  </tr>
+</template>
+
+<template id="TableHeaderCell">
+  <th>${HeaderText}</th>
+</template>
+
+<template id="TableBodyCell">
+  <td class="${CellClass}">${CellText}</td>
+</template>
